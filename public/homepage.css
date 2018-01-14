@@ -7,6 +7,15 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: "Circular Std";
+	src: url("CircularStd-Black.woff2") format("woff2"),
+		url("CircularStd-Black.woff") format("woff"),
+		url("CircularStd-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+}
+
 #text-container {
 	width: 90%;
 	margin: auto;
@@ -22,7 +31,7 @@ p {
 }
 
 span {
-	font-style: bold;
+	font-family: "Circular Std", "Circular Std Book", sans-serif;
 }
 
 a {
