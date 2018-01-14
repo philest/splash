@@ -1,10 +1,8 @@
 require 'sinatra'
-require 'json'
 
 
+# Quick test
 get '/' do
-  output = "Hello world! Version 3. Now with test-suite! </br>"
-  env_string = JSON.pretty_generate(ENV.to_a).gsub!("\n",'</br>')
-  output += "Environment: </br> #{env_string} </br>"
-  output
+  "Congradulations!
+   You're running a Sinatra application on Heroku!"
 end
