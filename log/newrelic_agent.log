@@ -26,3 +26,34 @@
 [2018-01-20 14:52:46 -0500 Phils-MacBook-Pro-2.local (24357)] INFO : Finished instrumentation
 [2018-01-20 14:52:47 -0500 Phils-MacBook-Pro-2.local (24357)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-01-20 14:52:49 -0500 Phils-MacBook-Pro-2.local (24357)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1852964/applications/41533787
+[2018-01-21 11:53:57 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-21 11:53:57 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.00234 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 11:53:59 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2018-01-21 11:53:59 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.002504 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 11:53:59 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-21 11:53:59 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.001658 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 12:03:17 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2018-01-21 12:03:17 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.004864 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 12:03:17 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-21 12:03:17 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.002326 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 14:00:58 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-21 14:00:58 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.038956 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 16:39:33 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-21 16:39:33 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.002273 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-21 20:53:55 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-21 20:53:55 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.013204 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-22 22:28:55 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-01-22 22:28:55 -0500 Phils-MacBook-Pro-2.local (24357)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.008418 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Reading configuration from config/newrelic.yml (/Users/philesterman/Code/splash)
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Environment: development
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : No known dispatcher detected.
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Application: Splash (Development)
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Installing Sinatra instrumentation
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Installing Net instrumentation
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Finished instrumentation
+[2018-01-23 12:31:30 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-01-23 12:31:33 -0500 Phils-MacBook-Pro-2.local (5811)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1852964/applications/41533787
