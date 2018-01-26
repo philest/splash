@@ -1,2 +1,2 @@
 # splash
-A simple static page with links to work. 
+Just a place to put up info on the world wide web. [http://www.philesterman.com]
