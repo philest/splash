@@ -35,10 +35,33 @@ span {
 	font-family: "Circular Std", "Circular Std Book", sans-serif;
 }
 
-a {
+a.text-link {
 	color: #0071b2;
+	border-bottom: 2px dotted #0071b2;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+a.text-link:hover {
+	border-bottom: 2px solid #0071b2;
 }
 
 p i {
 	color: #4a4a4a;
+}
+
+.icon-link svg {
+	margin-right: 15px;
+	color: #4a4a4a;
+	transition: all 0.3s;
+}
+
+.icon-link svg:hover {
+	/*	color: #0071b2;
+*/
+
+	transform: translateY(-3px);
+	filter: brightness(120%);
+
+	transition: all 0.3s;
 }
