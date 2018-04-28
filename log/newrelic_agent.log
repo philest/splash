@@ -85,3 +85,34 @@
 [2018-02-14 19:01:52 -0800 Phils-MacBook-Pro-2.local (60275)] INFO : Finished instrumentation
 [2018-02-14 19:01:52 -0800 Phils-MacBook-Pro-2.local (60275)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-02-14 19:01:55 -0800 Phils-MacBook-Pro-2.local (60275)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1852964/applications/41533787
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Reading configuration from config/newrelic.yml (/Users/philest/Code/splash)
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Environment: development
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : No known dispatcher detected.
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Application: Splash (Development)
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Installing Net instrumentation
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Installing Sinatra instrumentation
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Finished instrumentation
+[2018-04-28 15:43:21 -0700 Phils-MacBook-Pro.local (4743)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-04-28 15:43:24 -0700 Phils-MacBook-Pro.local (4743)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1852964/applications/41533787
+[2018-04-28 15:47:52 -0700 Phils-MacBook-Pro.local (4743)] INFO : Starting Agent shutdown
+[2018-04-28 15:47:52 -0700 Phils-MacBook-Pro.local (4743)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2018-04-28 15:47:52 -0700 Phils-MacBook-Pro.local (4743)] INFO : NoMethodError: undefined method `shutdown' for nil:NilClass
+[2018-04-28 15:47:52 -0700 Phils-MacBook-Pro.local (4743)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2018-04-28 15:47:52 -0700 Phils-MacBook-Pro.local (4743)] INFO : NoMethodError: undefined method `shutdown' for nil:NilClass
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Starting the New Relic agent version 4.7.1.340 in "development" environment.
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Reading configuration from config/newrelic.yml (/Users/philest/Code/splash)
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Environment: development
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : No known dispatcher detected.
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Application: Splash (Development)
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Installing Net instrumentation
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Installing Sinatra instrumentation
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Finished instrumentation
+[2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-04-28 15:47:57 -0700 Phils-MacBook-Pro.local (4807)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1852964/applications/41533787

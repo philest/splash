@@ -5,3 +5,7 @@ require 'newrelic_rpm'
 get '/' do
     erb :'homepage'
 end
+
+get '/lessons' do
+    erb :'post'
+end
