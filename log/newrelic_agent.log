@@ -116,3 +116,7 @@
 [2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Finished instrumentation
 [2018-04-28 15:47:54 -0700 Phils-MacBook-Pro.local (4807)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-04-28 15:47:57 -0700 Phils-MacBook-Pro.local (4807)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1852964/applications/41533787
+[2018-04-29 07:51:34 -0700 Phils-MacBook-Pro.local (4807)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-04-29 07:51:34 -0700 Phils-MacBook-Pro.local (4807)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.012674 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[2018-04-29 09:24:28 -0700 Phils-MacBook-Pro.local (4807)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2018-04-29 09:24:28 -0700 Phils-MacBook-Pro.local (4807)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-210.newrelic.com:443 after 0.001664 seconds: Failed to open TCP connection to collector-210.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
